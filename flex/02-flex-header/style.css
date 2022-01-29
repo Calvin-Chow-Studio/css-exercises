@@ -1,6 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* remember to add a padding to the container */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -9,11 +15,22 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
+
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* my solution, removing existing padding, adding a gap */
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  padding: 0px;
+  margin: 0px;
 }
 
 a {
