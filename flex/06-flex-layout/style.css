@@ -44,7 +44,7 @@ body {
   padding: 5px;
   margin: 10px 10px;
 }
-
+/* In the solution, a quicker approach is to give .content a column flex, and ul as a flex item as well */
 .content {
   align-self: center;
 }
