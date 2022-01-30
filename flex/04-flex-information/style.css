@@ -11,6 +11,38 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+/* Not completely necessary to give title a flex item, can use text-align center instead, but its ok, both works */
+.title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.fruits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 52px;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+}
+
+.text {
+ text-align: center;
+}
 
 /* do not edit this footer */
 .footer {
